@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=c\ x\ y
+comment0.target=Tile(char,\ int,\ int)
+comment0.text=\r\n\ Create\ an\ instance\ of\ a\ tile\r\n\ @param\ c\tThe\ character\ associated\ with\ this\ tile\r\n\ @param\ x\ The\ x\ tile\ coordinate\ in\ pixels\r\n\ @param\ y\ The\ y\ tile\ coordinate\ in\ pixels\r\n
+comment1.params=
+comment1.target=char\ getCharacter()
+comment1.text=\r\n\ @return\ The\ character\ for\ this\ tile\r\n
+comment2.params=character
+comment2.target=void\ setCharacter(char)
+comment2.text=\r\n\ @param\ character\ The\ character\ to\ set\ the\ tile\ to\r\n
+comment3.params=
+comment3.target=int\ getXC()
+comment3.text=\r\n\ @return\ The\ x\ coordinate\ (in\ pixels)\r\n
+comment4.params=
+comment4.target=int\ getYC()
+comment4.text=\r\n\ @return\ The\ y\ coordinate\ (in\ pixels)\r\n
+numComments=5

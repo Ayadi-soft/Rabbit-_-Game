@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=SoundPlayer
+comment0.text=\r\n\ \ class\ SoundPlayer\ \r\n\r\n\ @author\ \r\n\ @version\ \r\n
+comment1.params=
+comment1.target=SoundPlayer()
+comment2.params=
+comment2.target=void\ init()
+comment3.params=name\ file
+comment3.target=void\ loadSound(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ WAV\ files\ only\r\n\ \r\n\ @param\ name\r\n\ \ \ \ \ \ \ \ \ \ \ \ Name\ to\ store\ sound\ as\r\n\ @param\ file\r\n\ \ \ \ \ \ \ \ \ \ \ \ Sound\ file\r\n
+comment4.params=name
+comment4.target=boolean\ play(java.lang.String)
+comment5.params=name
+comment5.target=boolean\ stop(java.lang.String)
+comment6.params=name
+comment6.target=boolean\ isPlaying(java.lang.String)
+comment7.params=name
+comment7.target=long\ getPosition(java.lang.String)
+numComments=8

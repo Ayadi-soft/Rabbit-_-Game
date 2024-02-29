@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Animation()
+comment0.text=\r\n\ \ \ \ \ \ \ \ Creates\ a\ new,\ empty\ Animation.\r\n
+comment1.params=image\ duration
+comment1.target=void\ addFrame(java.awt.Image,\ long)
+comment1.text=\r\n\ \ \ \ \ \ \ \ Adds\ an\ image\ to\ the\ animation\ with\ the\ specified\r\n\ \ \ \ \ \ \ \ duration\ (time\ to\ display\ the\ image).\r\n
+comment2.params=
+comment2.target=void\ start()
+comment2.text=\r\n\ \ \ \ \ \ \ \ Starts\ this\ animation\ over\ from\ the\ beginning.\r\n
+comment3.params=elapsedTime
+comment3.target=void\ update(long)
+comment3.text=\r\n\ \ \ \ \ \ \ \ Updates\ this\ animation's\ current\ image\ (frame),\ if\r\n\ \ \ \ \ \ \ \ neccesary.\r\n
+comment4.params=
+comment4.target=java.awt.Image\ getImage()
+comment4.text=\r\n\ \ \ \ \ \ \ \ Gets\ this\ Animation's\ current\ image.\ Returns\ null\ if\ this\r\n\ \ \ \ \ \ \ \ animation\ has\ no\ images.\r\n
+comment5.params=fileName\ columns\ rows\ frameDuration
+comment5.target=void\ loadAnimationFromSheet(java.lang.String,\ int,\ int,\ int)
+comment5.text=\r\n\ Loads\ a\ complete\ animation\ from\ an\ animation\ sheet\ and\ adds\ each\r\n\ frame\ in\ the\ sheet\ to\ the\ animation\ with\ the\ given\ frameDuration.\r\n\ \r\n\ @param\ fileName\tThe\ path\ to\ the\ file\ to\ load\ the\ animations\ from\r\n\ @param\ rows\t\tHow\ many\ rows\ there\ are\ in\ the\ sheet\r\n\ @param\ columns\tHow\ many\ columns\ there\ are\ in\ the\ sheet\r\n\ @param\ frameDuration\tThe\ duration\ of\ each\ frame\r\n
+comment6.params=sheet\ columns\ rows
+comment6.target=java.awt.Image[]\ getImagesFromSheet(java.awt.Image,\ int,\ int)
+comment6.text=\r\n\ Loads\ a\ set\ of\ images\ from\ a\ sprite\ sheet\ so\ that\ they\ can\ be\ added\ to\ an\ animation.\r\n\ Courtesy\ of\ Donald\ Robertson.\r\n\ \r\n\ @param\ sheet\r\n\ @param\ rows\r\n\ @param\ columns\r\n\ @return\r\n
+comment7.params=i
+comment7.target=Animation.AnimFrame\ getFrame(int)
+numComments=8

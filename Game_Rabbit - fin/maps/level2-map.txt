@@ -1,0 +1,22 @@
+15 9 50 50
+#b=wall.png
+#c=carot.png
+#g=trap.png
+#d=dead.png
+#h=hunter.png
+#x=danger.png
+#w=xrabit.png
+#t=tree.png
+#map
+bbbbbbbbbbbbbbb
+b....g.c..ch..b
+b..g.c......t.b
+b..c..g..c....b
+b......c...c..b
+b..g.....g....b
+b....h...c....b
+b...c.....g.c.b
+bbbbbbbbbbbbbbb
+
+
+
